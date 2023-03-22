@@ -1,0 +1,16 @@
+void main() {
+  Retangulo retangulo = Retangulo (42,23);
+  retangulo.area();
+}
+
+
+class Retangulo {
+  int altura;
+  int largura;
+  
+  Retangulo(this.altura, this.largura);
+  area(){
+    
+  print(altura*largura);
+}
+}
