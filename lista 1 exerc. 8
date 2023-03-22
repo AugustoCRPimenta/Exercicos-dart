@@ -1,0 +1,22 @@
+void main(){
+   Animal animal1 = Animal("Cachorro", "Latido...");
+    Animal animal2 = Animal("Gato", "Miado...");
+  
+    print(animal1.nome);
+    print(animal1.som);
+    
+}
+
+class Animal{
+  String nome;
+  String som;
+  
+  Animal(this.nome, this.som);
+   
+  nomeAnimal(){
+    print(nome);
+  }
+  somAnimal(){
+    print(som);
+  }
+}
