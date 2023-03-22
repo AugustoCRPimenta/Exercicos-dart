@@ -1,0 +1,10 @@
+
+void main(){
+  List <String> nomes = ["Adryel", "Jheny", "Tony"];
+  
+  int i; 
+  
+  for(i = nomes.length -1; i >=0; i--){
+    print(nomes[i]);
+  }
+}
